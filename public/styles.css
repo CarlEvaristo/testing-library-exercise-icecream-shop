@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    width:100vw;
+    min-height:100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:self-start;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+h1,a {
+    margin-top:0;
+}
+button {
+    color: #fff;
+    border: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+button:disabled {
+    cursor:auto;
+}
+button:hover{
+    background-color: aqua;
+}
+.header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    background-color: bisque;
+}
+main {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
